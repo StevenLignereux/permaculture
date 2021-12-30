@@ -41,7 +41,7 @@ h1 {
 
 /* ********************* LEFT PART ***************************** */
 #leftPart {
-    background-color: "#BCF5A9";
+    background-color: #BCF5A9;
     border-radius: 20px;
     padding: 25px;
 }
@@ -145,4 +145,29 @@ h1 {
     100% {
         transform: translate(0px, 0px);
     }
+}
+
+/* ********************* NEWSLETTER ***************************** */
+#newsletter {
+    background: url('./media/newsletter.jpeg') no-repeat 50% 50%;
+    background-size: cover;
+    height: 370px;
+    width: 70%;
+    min-width: 450px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 70px;
+}
+
+#newsletter h4 {
+    margin-top: 15px;
+    padding: 100px 0 20px 0;
+    font-size: 2em;
+    text-shadow: 1px 1px 0 #BCF5A9, 1px -1px 0 #BCF5A9, -1px 1px 0 #BCF5A9, -1px -1px 0 #BCF5A9, 1px 0px 0 #BCF5A9, 0px 1px 0 #BCF5A9, -1px 0px 0 #BCF5A9, 0px -1px 0 #BCF5A9;
+}
+
+#newsletter .input-group {
+    width: 40%;
+    min-width: 350px;
+    margin: 0 auto;
 }
