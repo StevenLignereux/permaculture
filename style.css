@@ -10,6 +10,16 @@ h4,
 footer {
     text-align: center;
 }
+/* ********************* NAVBAR ***************************** */
+.collapse {
+    margin-left: 4%;
+}
+
+.nav-item {
+    color: darkslategray;
+    font-weight: bold;
+    padding-right: 45px;
+}
 
 /* ********************* HEADER ***************************** */
 header {
