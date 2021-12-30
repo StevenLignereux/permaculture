@@ -171,3 +171,9 @@ h1 {
     min-width: 350px;
     margin: 0 auto;
 }
+
+/* ********************* FOOTER ***************************** */
+footer {
+    background-color: #BCF5A9;
+    padding: 15px 0 4px 0;
+}
